@@ -1,10 +1,11 @@
-.carousel-item{
-    width: auto;
-    height: 500px;
-    transition: transform 0s ease-in-out;
+
+/* Achica la caja del carrousel y hace que las fechas queden superpuestas con las imagenes */
+.carousel{
+    width: 700px;
+    margin: auto;
 }
 
-.carousel-item.active{
-    display: flex;
-    
+/* Quitando la clase w-100 de todas las imagenes y sumando esta altura, le da el mismo alto a todas las imagenes para que queden parejas */
+.carousel-item img{
+    height: 500px;
 }
